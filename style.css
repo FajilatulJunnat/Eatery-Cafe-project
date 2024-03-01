@@ -94,6 +94,11 @@ color: rgb(182, 45, 45) !important;
  .inp{
     width: 45%;
  }
+ @media  only screen and (min-width: 200px) and (max-width: 991px) { 
+    .inp{
+        width: 100%;
+    }
+ }
  .g-tower{
    position: relative;
     background-color: white;
@@ -108,5 +113,35 @@ color: rgb(182, 45, 45) !important;
     bottom:210px;
     width: 4vw;
     text-align: center;
+}
+/* footer*/
+.foo{
+    background-image: url(./images/footer-open-hour-bg.jpg);
+    position: relative ;
+    background-size: cover;
+   background-blend-mode: darken;
+    
+}
+.foo::before{
+    background-color: rgba(7, 7, 7, 0.55) !important;
+    background-size: cover;
+  content: '';
+  position: absolute !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+border-radius: 1vw;
+
+}
+.icon{
+    color: rgb(182, 45, 45) !important;
+}
+.icon:hover{
+    background-color:rgb(182, 45, 45) !important ;
+    color: white !important;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
 }
  

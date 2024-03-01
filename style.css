@@ -1,0 +1,53 @@
+
+
+.nav-link:hover{
+color: rgb(182, 45, 45) !important;
+}
+.btn-1:hover{
+    background-color: black !important;
+    transition: 0.5s;
+}
+.dot{
+    color: rgb(182, 45, 45);  
+}
+.nav-change{
+    background-color: rgb(29, 29, 29) !important;
+   
+}
+
+/* slide*/
+.carousel-item img{
+    height: 100% !important;
+    width: 100%;
+    object-fit: cover !important;
+    
+}
+.btn-2{
+    background-color: rgb(40, 40, 40) !important;
+}
+.btn-2:hover{
+    background-color: white !important;
+    color: black !important;
+    transition: 0.5s;
+}
+.btn-3:hover{
+    background-color: white !important;
+    color: black !important;
+    transition: 0.5s;
+    border: 0;
+}
+.btn-4:hover{
+    background-color:  rgb(182, 45, 45) !important;
+    transition: 0.5s !important;
+    border: 0;
+} 
+.carousel-caption{
+    padding-bottom: 25.25rem !important;
+}
+
+@media  only screen and (min-width: 200px) and (max-width: 991px) { 
+    .carousel-caption{
+        top: 5.25rem !important;
+    }
+ }
+ 

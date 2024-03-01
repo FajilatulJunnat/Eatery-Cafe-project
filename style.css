@@ -90,4 +90,23 @@ color: rgb(182, 45, 45) !important;
  .bg-card{
     background: transparent !important; 
  }
+ /* contact*/
+ .inp{
+    width: 45%;
+ }
+ .g-tower{
+   position: relative;
+    background-color: white;
+    right: -20px;
+    top: -250px;
+    font-size: 13px;
+ }
+.plus{
+    position: relative;
+    background-color: white;
+    left: 475px;
+    bottom:210px;
+    width: 4vw;
+    text-align: center;
+}
  

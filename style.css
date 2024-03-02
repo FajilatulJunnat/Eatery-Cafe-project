@@ -70,9 +70,9 @@ color: rgb(182, 45, 45) !important;
     transition: .3s ease-in-out;
     display: block !important;
     overflow: hidden;
-
+    position: relative;
+    cursor: pointer;
  }
- 
     .img-card img{
         width: 100% !important;
     }
@@ -81,11 +81,78 @@ color: rgb(182, 45, 45) !important;
  .img-card img:hover{
     -webkit-transform: scale(1.1);
    transform: scale(1.1);
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
  }
- .hover-div{
+ .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1f1f1f;
+    opacity: .9;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    transition: 0.5s 0.2s;
+  }
+  .img-card:hover .overlay {
+    height: 100%;
+    transition-delay: 0.3s;
+    transform: translateY(0);
+  }
+  .overlay-text{
+    color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+  }
+  .overlay-icon{
+    background-color: dimgray;
+    border-radius: 50%;
+
+  }
+  .overlay-icon:hover{
+    background-color: rgb(182, 45, 45);
+    transition: 0.5s ease-in-out;
+  }
+  /* menu*/
+  .menu-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1f1f1f;
+    opacity: .9;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    transition: 0.5s 0.2s;
+  }
+  .img-card:hover .menu-overlay {
+    height: 40%;
+    transition-delay: 0.3s;
+    transform: translateY(0);
+  }
+  .menu-text{
+    color: white;
+   
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     
- }
+  }
+
  /* testimoinal*/
  .bg-testi{
     background:url("./images/testimonial-bg.jpg");

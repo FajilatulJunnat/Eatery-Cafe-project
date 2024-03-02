@@ -17,32 +17,32 @@
         <div class="container ">
           <a class="navbar-brand me-auto fs-4 text-white " href="#">Eatery <span class="dot">.</span> Cafe
         </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header ">
               <h4 class="offcanvas-title " id="offcanvasNavbarLabel">Eatery Cafe
             </h4>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 fs-6 ">
                 <li class="nav-item">
-                  <a class="nav-link pe-3 text-white" aria-current="page" href="#">HOME
+                  <a class="nav-link pe-3 text-white" aria-current="page" href="#home">HOME
                 </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link pe-3 text-white" href="#">ABOUT</a>
+                  <a class="nav-link pe-3 text-white" href="#about">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link pe-3 text-white" href="#">CHEF</a>
+                    <a class="nav-link pe-3 text-white" href="#chef">CHEF</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link pe-3 text-white" href="#">MENU</a>
+                    <a class="nav-link pe-3 text-white" href="#menu">MENU</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link pe-3 text-white" href="#">CONTACT</a>
+                    <a class="nav-link pe-3 text-white" href="#contact">CONTACT</a>
                   </li>
               </ul>
               <a class="nav-link align-self-center  text-white
@@ -55,6 +55,7 @@
          
       </nav>
       <!-- slide-->
+      <section id="home">
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -66,7 +67,7 @@
             <img src="./images/slider-image1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block text-start w-50 pe-lg-5">
               <h5 class="text-uppercase">eatery cafe & resturent</h5>
-              <h1>Our mission is provide an unfogettable experience</h1>
+              <h1 class="fw-bold">Our mission is provide an unfogettable experience</h1>
               <button type="button" class=" btn btn-danger btn-3 text-white  rounded-0 mt-lg-5">Meet our chef</button>
             </div>
           </div>
@@ -74,7 +75,7 @@
             <img src="./images/slider-image2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block text-start w-50 pe-lg-5">
                 <h5 class="text-uppercase">Your Perfect breakfast</h5>
-                <h1>The Best dinning quality can be here too</h1>
+                <h1 class="fw-bold">The Best dinning quality can be here too</h1>
                 <button type="button" class=" btn btn-2 text-white  rounded-0 mt-lg-5">Discover menu</button>
             </div>
           </div>
@@ -82,7 +83,7 @@
             <img src="./images/slider-image3.jpg" class="d-block w-100 " alt="...">
             <div class="carousel-caption d-none d-md-block text-start w-50 pe-lg-5">
               <h5 class="text-uppercase">New Resturent in Toun</h5>
-              <h1>Enjoy our special menues every Sunday and Friday</h1>
+              <h1 class="fw-bold">Enjoy our special menues every Sunday and Friday</h1>
               <button type="button" class=" btn border-white btn-4 text-white  rounded-0 mt-lg-5">Reservation</button>
             </div>
           </div>
@@ -96,16 +97,17 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </section>
       <!--READ OUR STORY-->
-    <section class="container my-5">
+    <section class="container my-5" id="about">
       <div class="d-flex row row-cols-lg-2 row-cols-1 justify-content-between g-5 py-5">
         <div class="col">
-          <h6 class="mb-3">READ OUR STORY</h6>
-          <h2 class="mb-5">We've been Making The Delicious Foods Since 1999</h2>
-          <p>
+          <h6 class="mb-3 text-color fw-bold">READ OUR STORY</h6>
+          <h2 class="mb-5 fw-bold">We've been Making The Delicious Foods Since 1999</h2>
+          <p class="text">
             Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada. Proin scelerisque risus et ipsum semper molestie sed in nisi. Ut rhoncus congue lectus, rhoncus venenatis leo malesuada id.</p>
 
-<p> elementum vel felis sed scelerisque. In arcu diam, sollicitudin eu nibh ac, posuere tristique magna. You can use this template for your cafe or restaurant website. Please tell your friends about templatemo. Thank you.
+<p class="text"> elementum vel felis sed scelerisque. In arcu diam, sollicitudin eu nibh ac, posuere tristique magna. You can use this template for your cafe or restaurant website. Please tell your friends about templatemo. Thank you.
           </p>
         </div>
         <div class="col">
@@ -114,59 +116,59 @@
       </div>
     </section>
     <!--chefs-->
-    <section class="bg-body-tertiary py-lg-5">
+    <section class="bg-body-tertiary py-lg-5" id="chef">
       <section class="container pb-5">
         <div class="text-center py-5">
-          <h3>Meet our chefs</h3>
-          <h6>THEY ARE NICE & FRIENDLY</h6>
+          <h3 class="fw-bold">Meet our chefs</h3>
+          <h6 class="text-color fw-bold">THEY ARE NICE & FRIENDLY</h6>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
           <div class="col">
             <div class="card h-100 border-0 img-card rounded-0">
-              <img src="./images/team-image1.jpg" class="card-img-top" alt="...">
+              <img src="./images/team-image1.jpg" class="card-img-top rounded-0" alt="...">
              
             </div>
           </div>
           <div class="card-body text-center mt-4">
-            <h4 class="card-title">New Catherine</h4>
-            <p class="card-text">KITCHEN OFFICER</p>
+            <h4 class="card-title fw-bold">New Catherine</h4>
+            <p class="card-text text fw-bold pt-2">KITCHEN OFFICER</p>
           </div>
         </div>
         <div class="col">
           <div class="col">
             <div class="card h-100 border-0 img-card rounded-0">
-              <img src="./images/team-image2.jpg" class="card-img-top" alt="...">
+              <img src="./images/team-image2.jpg" class="card-img-top rounded-0" alt="...">
              
             </div>
           </div>
           <div class="card-body text-center mt-4">
-            <h4 class="card-title">Lindsay Perlen</h4>
-            <p class="card-text">OWNER & MANAGER</p>
+            <h4 class="card-title fw-bold">Lindsay Perlen</h4>
+            <p class="card-text text fw-bold pt-2">OWNER & MANAGER</p>
           </div>
         </div>
         <div>
           <div class="col">
             <div class="card h-100 border-0 img-card rounded-0">
-              <img src="./images/team-image3.jpg" class="card-img-top" alt="...">
+              <img src="./images/team-image3.jpg" class="card-img-top rounded-0" alt="...">
              
             </div>
           </div>
           <div class="card-body text-center mt-4">
-            <h4 class="card-title">Isabella Grace</h4>
-            <p class="card-text">PIZZA SPECIALIST</p>
+            <h4 class="card-title fw-bold">Isabella Grace</h4>
+            <p class="card-text text fw-bold pt-2">PIZZA SPECIALIST</p>
           </div>
         </div>
         </div>
       </section>
     </section>
     <!--menus-->
-    <section class="pt-5">
+    <section class="pt-5" id="menu">
       <div class="text-center py-5">
-        <h3>Our Menus</h3>
-        <h6>TEA TIME & DINING</h6>
+        <h3 class="fw-bold">Our Menus</h3>
+        <h6 class="text-color fw-bold">TEA TIME & DINING</h6>
       </div>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 px-lg-0 px-5 ">
         <div class="col px-0">
           <div class="card h-100 border-0 img-card rounded-0">
             <img src="./images/menu-image1.jpg" class="img-fluid" alt="...">
@@ -209,7 +211,7 @@
     <!--testimonial-->
     <section class="bg-testi">
      <div class="container py-5">
-      <h3 class="text-center position-relative text-white pb-5">
+      <h3 class="text-center position-relative text-white pb-5 fw-bold">
         Testimonials
       </h3>
       <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -218,8 +220,8 @@
            
             <div class="card-body text-white ">
             
-              <p class="card-text">elementum vel felis sed scelerisque. In arcu diam, sollicitudin eu nibh ac, posuere tristique magna.</p>
-              <h5 class="card-title"><span class="fw-bold">Jessie White   </span> <span class="h6">Vitea lacinia augue urna quis</span></h5>
+              <p class="card-text card-color">elementum vel felis sed scelerisque. In arcu diam, sollicitudin eu nibh ac, posuere tristique magna.</p>
+              <h5 class="card-title card-color"><span class="fw-bold">Jessie White   </span> <span class="h6">Vitea lacinia augue urna quis</span></h5>
             </div>
           </div>
         </div>
@@ -228,8 +230,8 @@
            
             <div class="card-body text-white">
               
-              <p class="card-text">Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada</p>
-              <h5 class="card-title"><span class="fw-bold">Digital Carlson   </span> <span class="h6">Paratra quam sit amet</span></h5>
+              <p class="card-text card-color">Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada</p>
+              <h5 class="card-title card-color"><span class="fw-bold">Digital Carlson   </span> <span class="h6">Paratra quam sit amet</span></h5>
             </div>
           </div>
         </div>
@@ -238,8 +240,8 @@
            
             <div class="card-body text-white">
               
-              <p class="card-text">Phalantesque habitent morbi trisique senectus netus at malesuada  fames ac turpis egestus.Sed vestibulam orci quam</p>
-              <h5 class="card-title"><span class="fw-bold">Jhonny Stephen   </span> <span class="h6">Megna nisi porta ligula</span></h5>
+              <p class="card-text card-color">Phalantesque habitent morbi trisique senectus netus at malesuada  fames ac turpis egestus.Sed vestibulam orci quam</p>
+              <h5 class="card-title card-color"><span class="fw-bold">Jhonny Stephen   </span> <span class="h6">Megna nisi porta ligula</span></h5>
             </div>
           </div>
         </div>
@@ -247,7 +249,7 @@
      </div>
     </section>
     <!--contact-->
-    <section class="container py-5">
+    <section class="container py-5" id="contact">
       <div class="d-flex justify-content-between align-items-center row row-cols-lg-2 row-cols-1 g-5 py-5">
         <div class="col h-100 d-block">
           <img src="./images/hero_maps.png" alt="" class="img-fluid">
@@ -256,7 +258,7 @@
               <div>
               <h6>G Tower</h6>
               <p>33 4 Rama IX Rd, Huai Khwang, Bangkok 10310</p>
-              <b>4.3</b><i class="fa-solid fa-star text-warning"></i>
+              <b>4.3 </b><i class="fa-solid fa-star text-warning"></i>
               <i class="fa-solid fa-star text-warning"></i>
               <i class="fa-solid fa-star text-warning"></i>
               <i class="fa-solid fa-star text-warning"></i>
@@ -273,12 +275,12 @@
           
           </div>
           <div class="plus">
-           <a href="#" class="text-black fw-bold"> <i class="fa-solid fa-plus border-bottom pb-3"></i></a><br>
-            <a href="#"class="text-black fw-bold"><i class="fa-solid fa-minus"></i></a>
+           <a href="#" class="text-black fw-bold fs-4"> <i class="fa-solid fa-plus border-bottom pb-3"></i></a><br>
+            <a href="#"class="text-black fw-bold fs-4"><i class="fa-solid fa-minus"></i></a>
           </div>
         </div>
         <div class="col shadow py-2">
-          <h3 class="mb-5">
+          <h3 class="mb-5 fw-bold">
             Contact Us
           </h3>
           <form >
@@ -286,7 +288,7 @@
             <input type="email" name="" id="" placeholder="E-mail Address"  class="border-0 border-bottom inp ms-lg-4 mt-lg-0 mt-3">
             <input type="text" name="" id="" placeholder="Subject" class="w-100 border-0 border-bottom pt-5">
             <textarea name="" id="" cols="30" rows="10" placeholder="Tell about your project" class="border-0 border-bottom pt-5 w-100"></textarea>
-            <button type="button" class="btn btn-danger mt-3 rounded-0 btn-1 w-100">Reserve a table</button>
+            <button type="button" class="btn btn-danger mt-3 rounded-0 btn-1 w-100 fw-bold">Send Massege </button>
           </form>
         </div>
       </div>
@@ -300,7 +302,7 @@
              
               <div class="card-body">
                 <h5 class="card-title pb-3 fw-bold">Find us</h5>
-                <p class="card-text">123 nulla a cursus rhoncus,
+                <p class="card-text text">123 nulla a cursus rhoncus,
                   augue sem viverra 10870
                   id ultricies sapien</p>
               </div>
@@ -311,7 +313,7 @@
              
               <div class="card-body">
                 <h5 class="card-title pb-3 fw-bold">Reservation</h5>
-                <p class="card-text">090-080-0650 | 090-070-0430
+                <p class="card-text text">090-080-0650 | 090-070-0430
 
                   info@company.com
                   
@@ -324,13 +326,13 @@
              
               <div class="card-body text-white position-relative px-5">
                 <h5 class="card-title pb-2 fw-bold">Open Hours</h5>
-                <p class="card-text">Monday: Closed
+                <p class="card-text"><span class="card-color"> Monday: Closed</span>
                   <br>
                  <b>Tuesday to Friday</b><br>
-                  7:00 AM - 9:00 PM
+                 <span class="card-color">7:00 AM - 9:00 PM</span> 
                   <br>
                  <b> Saturday - Sunday</b> 
-                  11:00 AM - 10:00 PM</p>
+                 <span class="card-color"> 11:00 AM - 10:00 PM</span></p>
               </div>
             </div>
           </div>
@@ -343,7 +345,7 @@
                   <a href="#"><i class="fa-brands fa-instagram icon"></i></a>
                   <a href="#"><i class="fa-brands fa-google icon"></i></h5></a>
                   
-                <p class="card-text">Copyright © 2018
+                <p class="card-text text">Copyright © 2018
                   Your Company Name <br>
                   <br>
                   Design: Nipa</p>

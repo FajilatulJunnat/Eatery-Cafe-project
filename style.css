@@ -50,6 +50,16 @@ color: rgb(182, 45, 45) !important;
         top: 5.25rem !important;
     }
  }
+ /* text color*/
+ .text-color{
+    color: rgb(122, 118, 118) !important;
+    font-size: 12px;
+ }
+ .text{
+    color: rgb(122, 118, 118) !important;
+ }
+
+    
  /* chef*/
  .img-card{
     -webkit-transform: scale(1);
@@ -58,12 +68,21 @@ color: rgb(182, 45, 45) !important;
     transition: .3s ease-in-out;
     display: block !important;
     overflow: hidden;
+
  }
  
+    .img-card img{
+        width: 100% !important;
+    }
+ 
+
  .img-card img:hover{
     -webkit-transform: scale(1.1);
    transform: scale(1.1);
     transition: 0.5s;
+ }
+ .hover-div{
+    
  }
  /* testimoinal*/
  .bg-testi{
@@ -90,6 +109,9 @@ color: rgb(182, 45, 45) !important;
  .bg-card{
     background: transparent !important; 
  }
+ .card-color{
+    color: rgb(205, 203, 203) !important;
+ }
  /* contact*/
  .inp{
     width: 45%;
@@ -110,9 +132,10 @@ color: rgb(182, 45, 45) !important;
     position: relative;
     background-color: white;
     left: 475px;
-    bottom:210px;
+    bottom:230px;
     width: 4vw;
     text-align: center;
+    
 }
 /* footer*/
 .foo{
@@ -120,10 +143,12 @@ color: rgb(182, 45, 45) !important;
     position: relative ;
     background-size: cover;
    background-blend-mode: darken;
+   overflow: hidden;
+
     
 }
 .foo::before{
-    background-color: rgba(7, 7, 7, 0.55) !important;
+    background-color: rgba(7, 7, 7, 0.796) !important;
     background-size: cover;
   content: '';
   position: absolute !important;
@@ -131,7 +156,8 @@ color: rgb(182, 45, 45) !important;
   width: 100%;
   top: 0;
   left: 0;
-border-radius: 1vw;
+
+
 
 }
 .icon{

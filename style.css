@@ -1,4 +1,6 @@
-
+body{
+    font-family: "Roboto", sans-serif;
+}
 
 .nav-link:hover{
 color: rgb(182, 45, 45) !important;
@@ -86,8 +88,9 @@ color: rgb(182, 45, 45) !important;
  }
  /* testimoinal*/
  .bg-testi{
-    background-image: url(./images/testimonial-bg.jpg);
+    background:url("./images/testimonial-bg.jpg");
     position: relative;
+    background-attachment: fixed;
     background-size: cover;
     display: flex;
     align-items: center;
